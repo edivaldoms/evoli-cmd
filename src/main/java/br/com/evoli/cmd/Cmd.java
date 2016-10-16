@@ -22,8 +22,8 @@ import java.util.Scanner;
 public class Cmd {
 
   //private static final String CMD = "REM netsh int ip set address name = \"Local Area Connection\" source = static addr = 192.168.222.3 mask = 255.255.255.0";
-  ////String command = "git clone http://git-wip-us.apache.org/repos/asf/accumulo.git";
-  //
+  ////String command = "git clone https://github.com/volojs/create-template.git";
+  ///
   public static void run(String argument) throws IOException {
     List<String> command = new ArrayList<>();
     OsType.OS_TYPE osType = OsType.getOperatingSystemType();
